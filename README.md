@@ -24,6 +24,8 @@ SLACK_TOKEN =
 SLACK_CHANNEL =
 ```
 
+## Note ::
+To create a slack token need to follow this steps :: https://thecodebarbarian.com/working-with-the-slack-api-in-node-js.html#:~:text=To%20send%20a%20message%20to,the%20text%20of%20your%20message.
 
 ## Attached postman documentation  ::
 https://documenter.getpostman.com/view/14304886/Uz5MDtCi
@@ -66,6 +68,8 @@ volumes:
 3. Copy docker-compose file code and paste it
 4. Make sure docker-compose file and .env file in same directory
 5. Run the following command
+
+
 
 ```$xslt
 docker-compose --env-file ./.env up -d
